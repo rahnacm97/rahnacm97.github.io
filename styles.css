@@ -1,0 +1,412 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #3b8bb9;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+    text-align: center;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-right: 20px;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about {
+    background-color: #fffbf2;
+}
+
+#contact {
+    background-color: #e0f7fa;
+}
+/* General Link Styles */
+a {
+    text-decoration: none;
+}
+
+/* Contact Link Styles */
+.contct-link {
+    color: #2e0acc; 
+    display: flex;
+    align-items: center;
+}
+
+.contct-link:hover {
+    color: #7874ca; 
+}
+
+.contct-link:visited {
+    color: #4b08f3; 
+}
+
+.contct-link:active {
+    color: #67548b; 
+}
+
+/* Icon Styles */
+.contct-icon {
+    width: 24px; 
+    height: 24px;
+    margin-right: 8px;
+}
+
+footer {
+    background-color: #3b8bb9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #06435c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.download-btn:hover {
+    background-color: #3b8bb9;
+}
+
+
+#projects {
+    background-color: #f1f8e9;
+}
+
+#resume {
+    background-color: #fffde7;
+}
+
+#blog {
+    background-color: #fffde7;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 70px auto 20px;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-content {
+    margin: 10px 0;
+}
+
+.post-footer {
+    color: #606770;
+    font-size: 0.9em;
+}
+
+.featured-content,
+.latest-news {
+    margin-top: 30px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.featured-item,
+.news-item {
+    margin-bottom: 15px;
+}
+
+.featured-item h3,
+.news-item h3 {
+    margin: 0;
+}
+
+.read-more {
+    color: #4267B2;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.chatbox {
+    margin-top: 20px;
+}
+/* Chatbot Logo Styles */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chatbot-link {
+    display: block;
+}
+
+.chatbot-logo {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #4267B2;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.chatbot-logo:hover {
+    opacity: 0.8;
+}
+
+
+#chat {
+    margin: 70px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+iframe {
+    width: 100%;
+    height: 600px; /* Adjust height as needed */
+    border: none;
+}
+
+
+footer {
+    background-color: #4267B2;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    max-width: 90%;
+    width: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .quote {
+        font-size: 24px;
+    }
+
+    .author {
+        font-size: 18px;
+    }
+
+    .button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .header-content {
+        flex-direction: column;
+    }
+
+    .header-profile-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .post-content {
+        font-size: 14px;
+    }
+}
+
+/* Tablet Styles */
+@media (max-width: 900px) {
+    .container {
+        padding: 30px;
+    }
+
+    .quote {
+        font-size: 26px;
+    }
+
+    .author {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px 18px;
+        font-size: 15px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        margin: 70px auto 20px;
+        padding: 10px;
+    }
+}
+
+}
+
+.contact, .phone, .email, .linkedin {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.email-sticker img, .linkedin-button img {
+    width: 20px;
+    margin-right: 10px;
+}
